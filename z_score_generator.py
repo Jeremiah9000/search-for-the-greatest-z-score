@@ -12,9 +12,9 @@ try:
 except FileNotFoundError:
     y = 0.0
 
-coutner = 0
+counter = 0
 while True:
-    coutner += 1
+    counter += 1
     x = np.random.randn()
     if abs(x) > abs(y):
         update = True
