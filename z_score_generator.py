@@ -22,7 +22,7 @@ while True:
         y = x
     if time.time() >= (start + seconds):
         end = time.time()
-        print(f'{coutner} cycles')
+        print(f'{counter} cycles')
         if update:
             print(f'greatest z-score found in {int(end - start)} seconds is z of {y}')
             with open('greatest_z.txt', 'w+') as f:
